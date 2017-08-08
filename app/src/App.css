@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+.user_photo{width: 100px;}
+.img_author{width: 100%;}
+.info_user{text-align: left;}
+.info_user h2{margin: 0 0 10px}
+.cont_logout{text-align: right;}
+.fileupload{margin-top: 20px; display: none;}
+.main_cont{clear: both; padding-top: 50px}
+.add_photo{margin-left:20px}
+.title_img{margin-top: 0}
+.form{
+  display: none;
+}
+.cn_pul{
+  max-height: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.img-thumbnail{
+  width: 150px;
+  max-height: 150px;
+}
+.page-header{
+  margin: 0;
+  padding: 10px 0;
+  background: black;
+}
+
+.page-header h1{
+  margin: 0;
+  color: white;
+}
+.page-header small{
+  color: white;
+}
+#show_form{
+  margin-top: 10px;
+}
+#delete{
+  position: absolute;
+  left: 73px;
+  top: 54px;
+  opacity: 0.8;
+}
+.map{
+  margin-top: 10px;
+  padding: 0;
+}
+.map iframe{
+  width: 100%;
+}
+.menu{
+  padding: 0;
+  margin: 0;
+}
+.menu li{
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.menu li a{
+  color: white;
+}
+.footer_container{
+    background: black;
+    padding: 10px 0;
+    color: white;
+}
+.footer_container p{
+  margin: 0;
+}
+#single_img{
+  width: 100%;
+  margin-top: 20px;
+}
+.single_title{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5)
+}
+.single_location{
+  width: 100%;
+}
+.content_singler{
+      margin-bottom: 20px;
+}
+.single_userphot{
+  width: 100%;
+}
+.user_single{
+  text-align: left;
+}
+.edit {
+    font-size: 16px;
+    position: absolute;
+    top: 54px;
+    right: 72px;
+    background: rgba(51, 122, 183, 0.8);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+progress{display: none}
+.editForm label{
+  width: 100%;
+  text-align: left;
+}
+.editImage{display: none}
+.result_search{
+  display: none;
+}
+#btn_search{
+  margin-left: 10px;
+}
+.btn-danger{margin-bottom: 10px}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
